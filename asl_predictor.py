@@ -32,7 +32,7 @@ cap = cv2.VideoCapture(0)
 
 while(1):
     _, frame = cap.read()
-    
+    frame = cv2.flip(frame, 1) #Lateral inversion. 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     gray = cv2.resize(gray, (im_w, im_h))
     cv2.imshow('Reduced image', gray)
