@@ -1,5 +1,5 @@
-# gesture_actuator
-This repo contains files related to a ML, DL based project that can take gestures as input and actuate a bot through a microcontroller
+# Gesture Bot
+A deep learning based project that can take gestures as input and actuate a bot through a microcontroller.
 
 As a first step: 
 The program can now recognise static ASL alphabet gestures in noiseless background with a test accuracy of 95%. Further improvements on introducing background independence in progress. 
